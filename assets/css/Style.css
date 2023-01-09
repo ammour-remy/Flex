@@ -1,0 +1,170 @@
+/*                         GENERAL                            */
+html {
+    scroll-behavior: smooth;   
+}
+body{
+    background-color: gray;
+    margin: 0;
+}
+main {
+    background-color: aliceblue;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    height: 75px;
+    text-align: center;
+    background-color: rgb(106, 0, 255);
+    padding-top: 25px;
+}
+h1{
+    margin: auto;
+}
+/*                         NAVBAR (en sticky avec redirection des exercices)                             */
+nav{
+    position: sticky;
+    background-color: rgb(146, 231, 255);
+    top: 1px;
+    z-index: 100;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav li a  {
+    display: inline-block;
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+}
+#pageActu {
+    color: red;
+}
+nav li a:hover {
+    background-color: rgb(0, 89, 255);
+    color: #890C99;
+    transition: 0.5s;
+}
+/*                         Footer (en en fixed avec copyright)                             */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0);
+    text-align: center;
+    color: #890C99;
+}
+/*                         Page Exercices (1, 2, 3, 4)                          */
+/*                General au Exercices (1, 2, 3, 4) et Exercices 1               */
+section {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+div {
+    padding: 30px;
+    border:1px solid black;
+    border-radius: 5px; 
+}
+.colorGreen {
+    background-color: green;
+}
+.colorBlue {
+    background-color: blue;
+}
+.colorRed {
+    background-color: red;
+}
+.colorCyan {
+    background-color: cyan;
+}
+/*                         Page Exercices 2                            */
+#exercice2 .colorBlue{
+    position: relative;
+    left: 100px;
+}
+#exercice2 .colorRed{
+    position: relative;
+    right: 200px;
+}
+/*                         Page Exercices 3                            */
+#exercice3 .colorRed{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+/*                         Page Exercices 4                            */
+#exercice4 {
+    height:  650px;
+}
+#exercice4 .colorCyan{
+    position: relative;
+}
+#exercice4 .colorGreen{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+#exercice4 .colorBlue{
+    position: relative;
+}
+#exercice4 .colorRed{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+/*                         Page Exercices 5.a                            */
+#exercice5 {
+    width: 100%;
+}
+#exercice5 .colorCyan{
+    margin: auto;
+    width: 499px;
+    height: 499px;
+    position: relative;
+}
+.colorYellow{
+    background-color: yellow;
+}
+#exercice5A div{
+    padding: 0;
+}
+#exercice5A .colorCyan{
+    margin: auto;
+    width: 499px;
+    height: 499px;
+    position: relative;
+}
+#exercice5A .colorCyan div {
+    position: absolute;
+    width: 199px;
+    height: 199px;
+}
+#exercice5A .colorGreen{
+    top: 30px;
+    left: 30px;
+}
+#exercice5A .colorBlue{
+    top: 30px;
+    left: 270px;
+}
+#exercice5A .colorRed{
+    top: 270px;
+    left: 30px;
+}
+#exercice5A .colorYellow{
+    top: 270px;
+    left: 270px;
+}
+/*                         Page Exercices 5.b                            */
