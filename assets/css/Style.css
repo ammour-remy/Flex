@@ -47,6 +47,7 @@ nav li a:hover {
     color: #890C99;
     transition: 0.5s;
 }
+/*                        main                           */
 section {
     display: flex;
     flex-wrap: wrap;
